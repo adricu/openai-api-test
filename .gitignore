@@ -360,3 +360,5 @@ tags
 .vscode
 
 # Project specific
+*.db
+test.pdf
