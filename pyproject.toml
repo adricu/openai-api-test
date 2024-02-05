@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "acr-hiring-task"
+version = "0.1.0"
+description = ""
+authors = ["Adrián Cuesta <adrian.cuesta@bitpanda.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11.0"
+openai = "1.11.1"
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 110
+target-version = ['py311']
